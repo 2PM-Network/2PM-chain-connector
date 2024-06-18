@@ -1,0 +1,13 @@
+node_modules
+
+# idea
+.idea
+
+# vscode
+.vscode
+
+config/
+whls/
+db/*.db
+nodes/*
+lib/*

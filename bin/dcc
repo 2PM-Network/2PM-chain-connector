@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+const path = require("path");
+const addAlias = require("module-alias").addAlias;
+addAlias("~", path.resolve(__dirname + "/../lib"));
+
+const dcc = require("../lib/index.js");
+dcc.main();
